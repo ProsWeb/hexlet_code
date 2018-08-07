@@ -13,11 +13,9 @@ sequenceSum(-3, 2); // (-3) + (-2) + (-1) + 0 + 1 + 2 = -3
 */
 
 const sequenceSum = (begin, end) => {
-  // BEGIN (write your solution here)
   if (begin === end) {
     return begin;
   } else if (begin < end) {
     return begin + sequenceSum(begin + 1, end);
   } return NaN;
-  // END
 };
