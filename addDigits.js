@@ -13,6 +13,8 @@ addDigits(38); // 2
 addDigits(1259); // 8
 */
 
+// const addDigits = num => ((num - 1) % 9) + 1;
+
 const sum = (str) => {
   let result = 0;
   for (let i = 0; i < str.length; i += 1) {
